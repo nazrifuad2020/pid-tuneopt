@@ -2,24 +2,6 @@
 
 ```
 pid-tuneopt
-├─ .idea
-│  ├─ inspectionProfiles
-│  │  └─ profiles_settings.xml
-│  ├─ modules.xml
-│  ├─ pid-tuneopt.iml
-│  ├─ vcs.xml
-│  └─ workspace.xml
-├─ .pytest_cache
-│  ├─ CACHEDIR.TAG
-│  ├─ README.md
-│  └─ v
-│     └─ cache
-│        ├─ lastfailed
-│        └─ nodeids
-├─ .python-version
-├─ .ruff_cache
-│  ├─ 0.16.7
-│  └─ CACHEDIR.TAG
 ├─ data
 │  ├─ sample_data_MISO_first_order_with_noise.csv
 │  ├─ sample_data_SISO1stOrder_with_noise.csv
@@ -36,13 +18,6 @@ pid-tuneopt
 │  ├─ compare_sims_sp_tracking.py
 │  └─ launc_app.py
 ├─ src
-│  ├─ .idea
-│  │  ├─ inspectionProfiles
-│  │  │  └─ profiles_settings.xml
-│  │  ├─ modules.xml
-│  │  ├─ src.iml
-│  │  ├─ vcs.xml
-│  │  └─ workspace.xml
 │  └─ pid_tuneopt
 │     ├─ controls
 │     │  ├─ sims.py
@@ -100,7 +75,6 @@ pid-tuneopt
 │     ├─ models
 │     │  ├─ arx.py
 │     │  └─ __init__.py
-│     ├─ py.typed
 │     └─ __init__.py
 └─ tests
    ├─ conftest.py
