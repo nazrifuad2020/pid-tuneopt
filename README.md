@@ -6,8 +6,8 @@ A GUI-based application for PID controller tuning and optimization using metaheu
 
 1. **Clone the packages:**
    ```bash
-   git clone <your-repository-url>
-   cd <your-repository-directory>
+   git clone https://github.com/nazrifuad2020/pid-tuneopt.git
+   cd pid-tuneopt
    ```
 
 2. **Install the packages from the root directory:**\
