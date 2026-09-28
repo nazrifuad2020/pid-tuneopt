@@ -1,96 +1,33 @@
+# PID TuneOpt App
 
+![PID TuneOpt App Main Window](./Screenshot.png)
 
-```
-pid-tuneopt
-├─ data
-│  ├─ sample_data_MISO_first_order_with_noise.csv
-│  ├─ sample_data_SISO1stOrder_with_noise.csv
-│  ├─ sample_model.idf
-│  ├─ sample_model_2.idf
-│  ├─ sample_model_3.idf
-│  └─ step_test_data.csv
-├─ MANIFEST.in
-├─ pyproject.toml
-├─ README.md
-├─ run_tests.py
-├─ scripts
-│  ├─ compare_sims_dist_reject.py
-│  ├─ compare_sims_sp_tracking.py
-│  └─ launc_app.py
-├─ src
-│  └─ pid_tuneopt
-│     ├─ controls
-│     │  ├─ sims.py
-│     │  ├─ tunings.py
-│     │  ├─ utils.py
-│     │  └─ __init__.py
-│     ├─ gui
-│     │  ├─ identification
-│     │  │  ├─ data_partition.py
-│     │  │  ├─ data_partition.ui
-│     │  │  ├─ data_selection.py
-│     │  │  ├─ data_selection.ui
-│     │  │  ├─ freq_response.py
-│     │  │  ├─ freq_response.ui
-│     │  │  ├─ model_output.py
-│     │  │  ├─ model_output.ui
-│     │  │  ├─ model_params.py
-│     │  │  ├─ model_params.ui
-│     │  │  ├─ optim_settings.py
-│     │  │  ├─ optim_settings.ui
-│     │  │  ├─ plot_window.py
-│     │  │  ├─ plot_window.ui
-│     │  │  ├─ rename_form.py
-│     │  │  ├─ rename_form.ui
-│     │  │  ├─ step_response.py
-│     │  │  ├─ step_response.ui
-│     │  │  ├─ system_block_diagram.png
-│     │  │  ├─ sys_ident.py
-│     │  │  ├─ sys_ident.ui
-│     │  │  └─ __init__.py
-│     │  ├─ optimization
-│     │  │  ├─ ga_optimizer.py
-│     │  │  ├─ ga_optimizer.ui
-│     │  │  ├─ model_definitions.py
-│     │  │  ├─ model_definitions.ui
-│     │  │  ├─ model_displays.py
-│     │  │  ├─ model_displays.ui
-│     │  │  ├─ optim.py
-│     │  │  ├─ optim.ui
-│     │  │  └─ __init__.py
-│     │  └─ __init__.py
-│     ├─ identification
-│     │  ├─ least_squares
-│     │  │  ├─ constants.py
-│     │  │  ├─ continuous.py
-│     │  │  ├─ fits.py
-│     │  │  ├─ identification.py
-│     │  │  ├─ linalg.py
-│     │  │  ├─ metrics.py
-│     │  │  ├─ preprocessing.py
-│     │  │  ├─ regressors.py
-│     │  │  ├─ utils.py
-│     │  │  └─ __init__.py
-│     │  └─ __init__.py
-│     ├─ models
-│     │  ├─ arx.py
-│     │  └─ __init__.py
-│     └─ __init__.py
-└─ tests
-   ├─ conftest.py
-   ├─ test_arx.py
-   ├─ test_constants.py
-   ├─ test_continuous.py
-   ├─ test_control_sims.py
-   ├─ test_control_utils.py
-   ├─ test_fits.py
-   ├─ test_identification.py
-   ├─ test_linalg.py
-   ├─ test_metrics.py
-   ├─ test_preprocessing.py
-   ├─ test_regressors.py
-   ├─ test_tunings.py
-   ├─ test_utils.py
-   └─ __init__.py
+![PID TuneOpt App GA Run](./Screenshot_2.png)
 
-```
+A GUI application for PID controller tuning and optimization using metaheuristic search optimization
+
+## Installation and Launch
+
+1. **Clone the packages:**
+   ```bash
+   git clone <your-repository-url>
+   cd <your-repository-directory>
+   ```
+
+2. **Install the packages from the root directory:**\
+   **Using uv:**
+   ```bash
+   uv sync
+   ```
+   **Using pip:**
+   ```bash
+   pip install -e .
+   ```
+
+3. **Launc the app**
+   ```bash
+   pid-tuneopt-app
+   ```
+
+## More instructions to use the app will follow
+   
