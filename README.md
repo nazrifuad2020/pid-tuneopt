@@ -1,10 +1,6 @@
 # PID TuneOpt App
 
-![PID TuneOpt App Main Window](./Screenshot.png)
-
-![PID TuneOpt App GA Run](./Screenshot_2.png)
-
-A GUI application for PID controller tuning and optimization using metaheuristic search optimization
+A GUI-based application for PID controller tuning and optimization using metaheuristic search optimization based on process CO-PV data
 
 ## Installation and Launch
 
@@ -30,4 +26,9 @@ A GUI application for PID controller tuning and optimization using metaheuristic
    ```
 
 ## More instructions to use the app will follow
-   
+
+![PID TuneOpt App Main Window](./Screenshot_MainApp.png)
+
+![PID TuneOpt App GA Run](./Screenshot_GARun.png)
+
+![PID TuneOpt App System Identification](./Screenshot_SysIdent.png)
