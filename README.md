@@ -15,11 +15,11 @@ A GUI application for PID controller tuning and optimization using metaheuristic
    ```
 
 2. **Install the packages from the root directory:**\
-   **Using uv:**
+   **using uv:**
    ```bash
    uv sync
    ```
-   **Using pip:**
+   **using pip:**
    ```bash
    pip install -e .
    ```
