@@ -17,7 +17,7 @@ A GUI-based application for PID controller tuning and optimization using metaheu
    ```
    **or using pip:**
    ```bash
-   pip install -e .
+   pip install .
    ```
 
 3. **Launc the app**
