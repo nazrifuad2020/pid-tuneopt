@@ -1,0 +1,38 @@
+[project]
+name = "pid-tuneopt"
+version = "0.1.0"
+description = "Digital PID controller tuning and optimization"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.21",
+    "scipy>=1.9",
+    "PyQt6>=6.5",
+    "pyqtgraph>=0.13",
+    "platypus-opt>=1.2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-cov",
+    "black",
+    "mypy",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["pid_tuneopt*"]
+
+[tool.setuptools.package-data]
+pid_tuneopt = [
+    "gui/identification/*.ui",
+    "gui/optimization/*.ui",
+    "gui/identification/*.png"
+]
+
+[project.gui-scripts]
+pid-tuneopt-app = "pid_tuneopt.gui.optimization.optim:main"
