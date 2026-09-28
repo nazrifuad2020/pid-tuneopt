@@ -19,7 +19,7 @@ A GUI application for PID controller tuning and optimization using metaheuristic
    ```bash
    uv sync
    ```
-   **using pip:**
+   **or using pip:**
    ```bash
    pip install -e .
    ```
